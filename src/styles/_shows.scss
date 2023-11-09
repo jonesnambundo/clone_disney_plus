@@ -10,13 +10,6 @@
         grid-template-columns: 1fr 1fr 1fr;
         gap: 24px;
 
-        &__item {
-            img {
-                max-width: 100%;
-                border-radius: 4px;
-            }
-        }
-
         @media (max-width: 768px) {
             grid-template-columns: 1fr 1fr;
         }
@@ -25,7 +18,12 @@
             display: grid;
         }
 
-        
+        &__item {
+            img {
+                max-width: 100%;
+                border-radius: 4px;
+            }
+        }
     }
 
     &__tabs {
